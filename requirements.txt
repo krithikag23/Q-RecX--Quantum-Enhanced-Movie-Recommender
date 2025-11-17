@@ -1,0 +1,5 @@
+streamlit
+pennylane
+numpy
+pandas
+scikit-surprise
