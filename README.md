@@ -1,74 +1,81 @@
-# Quantum Movie Recommender – Hybrid Classical + Quantum System
+# 🎬 Quantum Movie Recommender ⚛️  
+### Hybrid Classical + Quantum Recommendation System
 
-This project is a hybrid movie recommendation engine that combines classical cosine similarity with a quantum circuit similarity measure built using PennyLane. It uses a small offline movie dataset included in the `data` folder to ensure that the application works without any external API or internet dependency.
-
----
-
-## Features
-
-- Offline movie dataset (no downloads required)
-- Quantum similarity scoring using PennyLane
-- Classical cosine similarity on genre preferences
-- Hybrid ranking: 70% classical + 30% quantum
-- Streamlit interface for interactive usage
+This project is a hybrid movie recommendation engine that combines **classical cosine similarity** with a **quantum circuit similarity measure** using PennyLane.  
+It uses a **small offline movie dataset** included in the `data` folder — so it works **without any internet or external APIs**. 🚫🌐
 
 ---
 
----
+## ✨ Features
 
-## How It Works
-
-1. User provides preferences for Action and Romance genres.
-2. Classical similarity is calculated using cosine similarity.
-3. Quantum similarity uses a 2-qubit circuit:
-   - Rotational feature encoding
-   - Entanglement layer
-   - Expectation value measurement
-4. Hybrid score combines both signals to rank movies.
+- 📁 Offline movie dataset (no download required)
+- ⚛️ Quantum similarity scoring using PennyLane
+- 🧮 Classical cosine similarity on genre preferences
+- 🔗 Hybrid ranking (70% classical + 30% quantum)
+- 🖥️ Streamlit interface for interactive usage
 
 ---
 
-## Dataset
+## 🧠 How It Works
+
+1. 🎚️ User provides preferences for Action & Romance genres  
+2. 📊 Classical similarity calculated using cosine similarity  
+3. ⚛️ Quantum similarity from 2-qubit circuit:
+   - Rotational feature encoding  
+   - Entanglement via CNOT  
+   - Expectation value measurement  
+4. 🏆 Final hybrid score ranks the movies
+
+---
+
+## 🎥 Dataset
 
 - File: `data/movies.csv`
-- Contains 10 custom movie entries with:
-  - Title
-  - Year
-  - Genre indicators (Action, Romance)
+- 10 quantum-themed movie entries
+- Includes:
+  - 🎞 Title
+  - 📅 Year
+  - 🎭 Genre binary flags (Action, Romance)
 
-Dataset can be easily expanded with more movies and genres.
-
----
-
-## Dependencies
-
-- streamlit
-- pennylane
-- numpy
-- pandas
-- scikit-learn
-
-Installed via `requirements.txt`.
+➡️ Can easily expand with more genres, posters, & ratings
 
 ---
 
-## Future Enhancements
+## 📦 Dependencies
 
-- Additional genres (Comedy, Thriller, etc.)
-- Integration of IMDb ratings and posters
-- Better quantum embedding through a variational circuit
-- Detailed model explainability
-- Deployment to Streamlit Cloud
+- `streamlit` — UI  
+- `pennylane` — quantum circuits  
+- `numpy`, `pandas` — data handling  
+- `scikit-learn` — similarity computation  
+
+📌 Install via:
+
+pip install -r requirements.txt
+
 
 ---
 
-## Purpose
+## 🚀 Future Enhancements
+
+- 🎭 Add more genres (Comedy, Thriller…)
+- 🎞 Movie posters & IMDb trailer links
+- 🧠 Variational quantum circuit embeddings
+- 🔍 Explainability: “Why this movie was recommended”
+- 🌐 Streamlit Cloud deployment
+
+---
+
+## 🎯 Purpose
 
 This project demonstrates:
-- Practical quantum computing integration into real applications
-- Hybrid ML approaches
-- Clean UI for recommendation systems
 
+- Practical **Quantum Machine Learning** in a real product
+- Novel **hybrid recommender system architecture**
+- Clean & interactive UI design
 
+📌 Great for:
+Research • Hackathons • Resume • Learning QML
 
+---
 
+Made with ❤️, Python 🐍, and Quantum Superposition ⚛️
