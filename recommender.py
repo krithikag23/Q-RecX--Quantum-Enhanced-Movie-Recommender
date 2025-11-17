@@ -4,6 +4,7 @@ from quantum_model import quantum_similarity
 
 df = pd.read_csv("data/movies.csv")
 
+
 def recommend_movies(user_prefs, top_k=5):
     user_vec = [user_prefs["Action"], user_prefs["Romance"]]
     movie_features = df[["Action", "Romance"]].values
